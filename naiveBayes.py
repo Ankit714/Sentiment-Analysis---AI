@@ -101,24 +101,6 @@ class NaiveBayesClassifier(object):
 
         return sums
 
-
-# doc1 = "just plain boring"                      # -
-# doc2 = "entirely predictable and lacks energy"  # -
-# doc3 = "no surprises and very few laughs"       # -
-# doc4 = "very powerful"                          # +
-# doc5 = "the most fun film of the summer"        # +
-#
-# training_set = [doc1, doc2, doc3, doc4, doc5]
-# training_labels = np.array([0, 0, 0, 1 ,1])
-#
-# doc6 = "predictable with no fun" # ?
-#
-# NBclassifier = NaiveBayesClassifier(n_gram=1)
-# NBclassifier.train(training_set,training_labels)
-#
-# result = NBclassifier.predict(doc6)
-# print(np.exp(result))
-
 # Big file stuff
 import string
 import json
